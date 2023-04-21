@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
+
+h1{
+    height: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-line {
+    position: relative;
+    height: 2px;
+    background-color: #124559;
+    width: 100%;
+    margin-top: 10px; /* Adjust the top black line to create some space */
+    border-top: 1px solid #124559; 
+    z-index: 5;
+}
+
+.search-form-input-wrapper {
+    float: top right;
+    position: relative;
+    z-index: 1;
+    text-align: right;
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    display: block;
+    padding: 14px 16px; 
+    text-decoration: none; 
+}
+
+li a {
+    color: #124559;
+}
+
+#0D2149
