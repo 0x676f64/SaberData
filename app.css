@@ -1,0 +1,828 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px){
+html, body {
+    font-size: 13px;
+}}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+body {
+    margin: 0;
+}
+
+
+.primary-color {
+    color: black;
+}
+
+h1{
+    height: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    max-width: 1284px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 1em 0 1em;
+    z-index: 15;
+}
+
+@media (max-width: 1024px) {
+.header-top {
+    padding-top: 0.7rem;
+    width: 100%;
+    border-bottom: 2px solid #399098;
+}
+}
+
+@media (max-width: 1024px) {
+.nav {
+    width: 100%;
+    padding-top: 0;
+    text-align: left;
+    font-family: "Roboto Condensed";
+    font-size: 1.4rem;
+    line-height: 3rem;
+}}
+
+.nav {
+    display: block;
+}
+
+.nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+@media (max-width: 1024px) {
+#hamburger {
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    display: block;
+}}
+
+#hamburger {
+    padding-top: 5px;
+}
+
+.ham1, .ham2, .ham3 {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 2px 0;
+    text-align: right;
+    position: relative;
+    float: right;
+    clear: both;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+.change .ham1 {
+    top: 7px;
+    transform: rotate(135deg);
+}
+
+.change .ham2 {
+    opacity: 0;
+}
+
+.change .ham3 {
+    top: -7px;
+    transform: rotate(-135deg);
+}
+
+#player_search_container {
+    position: absolute;
+    right: 14px;
+    top: 20px;
+}
+
+#player_search_container input {
+    line-height: 1.5em;
+    padding: 8px;
+    width: 350px;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+}
+
+
+nav .title {
+    font-size: 14px;
+    z-index: 1;
+    color: rgb(153, 153, 153);
+    text-transform: uppercase;
+}#00ba7cd9
+
+.header-top {
+    padding-top: 0.7rem;
+    width: 100%;
+    border-bottom: 2px solid #00ba7cd9;
+}
+
+#header-bar {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background-color: #00ba7cd9;
+}
+
+@media (max-width: 1024px){
+.mlb-logo {
+    padding-bottom: 0.7rem;
+}}
+
+.mlb-logo {
+    width: 39px;
+    top: 5px;
+
+}
+
+.mlb-logo {
+    padding-bottom: 0.7rem;
+    float: left;
+    padding-top: 0.5rem;
+    left: 25px;
+}
+
+@media (max-width: 600px) {
+.logo {
+    padding-top: 2px;
+    width: 80%;
+    font-family: "Roboto Condensed";
+    font-size: 2.2rem;
+    padding-left: 0;
+    line-height: 1.2;
+}}
+
+.logo {
+    float: left;
+    width: 45%;
+    font-family: "Roboto Condensed";
+    padding-left: 0.2rem;
+    font-size: 2.5rem;
+    line-height: 1.3;
+    text-align: center;
+    top: 5px;
+}
+
+.logo-text a {
+    padding-left: 0.3rem;
+}
+
+.logo-text {
+    width: 55%;
+    font-family: "Roboto Condensed";
+    margin-top: 15px;
+    padding-left: 30px;
+}
+
+img {
+   margin-left: 10px;
+   margin-top: 10px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+.top-line {
+    bottom: 5px;
+    padding-left: 100px;
+}
+
+#player_search_container {
+    position: absolute;
+    right: 14px;
+    top: 20px;
+    width: 100%;
+    right: 0;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+#player_search_container input {
+    line-height: 1.5em;
+    padding: 8px;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    float: none;
+    clear: both;
+    width: 100%;
+    padding-bottom: .5rem;
+}
+
+.HeaderAC-MuiAutocomplete-hasClearIcon .HeaderAC-MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    padding-right: 39px;
+}
+
+.HeaderAC-MuiFormControl-fullWidth {
+    width: 100%;
+}
+
+.HeaderAC-MuiFormControl-root {
+    border: 0;
+    margin: 0;
+    display: inline-flex;
+    padding: 0;
+    position: relative;
+    min-width: 0;
+    flex-direction: column;
+    vertical-align: top;
+}
+
+.HeaderAC-MuiInputLabel-animated {
+    transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+}
+
+.HeaderAC-MuiInputLabel-formControl {
+    top: 0;
+    left: 0;
+    position: absolute;
+    transform: translate(0, 24px) scale(1);
+}
+
+.HeaderAC-MuiInputLabel-root {
+    display: block;
+    transform-origin: top left;
+}
+
+.HeaderAC-MuiFormLabel-root {
+    color: rgba(0, 0, 0, 0.54);
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.00938em;
+}
+
+.material-header-root {
+    font-family: "Roboto Condensed" !important;
+}
+
+label {
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+
+label {
+    cursor: default;
+}
+
+.HeaderAC-MuiAutocomplete-hasPopupIcon .HeaderAC-MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"], .HeaderAC-MuiAutocomplete-hasClearIcon .HeaderAC-MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    padding-right: 39px;
+}
+
+.HeaderAC-MuiInputLabel-outlined {
+    z-index: 1;
+    transform: translate(14px, 20px) scale(1);
+    pointer-events: none;
+}
+
+.HeaderAC-MuiInputLabel-animated {
+    transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+}
+
+.HeaderAC-MuiAutocomplete-hasPopupIcon .HeaderAC-MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"], .HeaderAC-MuiAutocomplete-hasClearIcon .HeaderAC-MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    padding-right: 39px;
+}
+
+.HeaderAC-MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .HeaderAC-MuiAutocomplete-endAdornment {
+    right: 9px;
+}
+
+.HeaderAC-MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    padding: 9px;
+}
+
+.HeaderAC-MuiAutocomplete-hasPopupIcon .HeaderAC-MuiAutocomplete-inputRoot, .HeaderAC-MuiAutocomplete-hasClearIcon .HeaderAC-MuiAutocomplete-inputRoot {
+    padding-right: 30px;
+}
+
+.HeaderAC-MuiAutocomplete-inputRoot {
+    flex-wrap: wrap;
+}
+
+.HeaderAC-MuiOutlinedInput-adornedEnd {
+    padding-right: 14px;
+}
+
+.HeaderAC-MuiAutocomplete-endAdornment {
+    top: calc(50% - 14px);
+    right: 0;
+    position: absolute;
+}
+
+.HeaderAC-MuiAutocomplete-clearIndicator {
+    padding: 4px;
+    visibility: hidden;
+    margin-right: -2px;
+}
+
+.HeaderAC-MuiIconButton-root {
+    flex: 0 0 auto;
+    color: rgba(0, 0, 0, 0.54);
+    padding: 12px;
+    overflow: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 50%;
+}
+
+.HeaderAC-MuiIconButton-label {
+    width: 100%;
+    display: flex;
+    align-items: inherit;
+    justify-content: inherit;
+}
+
+.HeaderAC-MuiAutocomplete-clearIndicator {
+    padding: 4px;
+    visibility: hidden;
+    margin-right: -2px;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.HeaderAC-MuiSvgIcon-fontSizeSmall {
+    font-size: 1.25rem;
+}
+
+.HeaderAC-MuiSvgIcon-root {
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+}
+
+.HeaderAC-MuiSvgIcon-fontSizeSmall {
+    font-size: 1.25rem;
+}
+
+.HeaderAC-MuiTouchRipple-root {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
+    position: absolute;
+    border-radius: inherit;
+    pointer-events: none;
+}
+
+.jss7 {
+    border-color: #3a9098 !important;
+    border-width: 1px;
+}
+
+.HeaderAC-MuiOutlinedInput-notchedOutline {
+    border-color: rgba(0, 0, 0, 0.23);
+}
+
+.HeaderAC-c1 {
+    top: -5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0 8px;
+    overflow: hidden;
+    position: absolute;
+    border-style: solid;
+    border-radius: inherit;
+    pointer-events: none;
+}
+
+fieldset {
+    border: 0;
+    min-width: 0;
+}
+
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end:  2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end:  0.625em;
+    min-inline-size:    min-content;
+}
+
+.jss5 {
+    font-family: Roboto Condensed !important;
+    border-radius: 0px !important;
+}
+
+.HeaderAC-MuiInputBase-root {
+    color: rgba(0, 0, 0, 0.87);
+    cursor: text;
+    display: inline-flex;
+    font-size: 1rem;
+    box-sizing: border-box;
+    align-items: center;
+    font-weight: 400;
+    line-height: 1.1876em;
+    letter-spacing: 0.00938em;
+}
+
+.HeaderAC-c3 {
+    width: auto;
+    height: 11px;
+    display:    block;
+    padding:    0;
+    font-size:  0.75em;
+    max-width:  0.01px;
+    text-align: left;
+    transition: max-width 50ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    visibility: hidden;
+}
+
+legend {
+    margin-bottom:  20px;
+    line-height:    inherit;
+    color:  #333;
+    border: 0;
+    border-bottom:  1px solid #e5e5e5;
+}
+
+.HeaderAC-c3 > span {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right:  5px;
+}
+
+div {
+    display: block;
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-family: "Roboto Condensed";
+}
+
+a {
+    background-color: transparent;
+}
+
+.flex-cal {
+   flex: 0 0 auto;
+   border: solid 1px #49a;
+   border-right: solid 0.5px #49a;
+   width: 80px;
+   text-align: center;
+   line-height: 0.5;
+   font-family: "Roboto Condensed";
+   font-size: 24px;
+   height: 60px;
+   cursor: pointer;
+   margin-top: 50px;
+   margin-left: -600px;
+
+}
+
+#player_search_container {
+    width: 100%;
+    z-index: 1;
+    right: 0;
+    margin: 0 auto;
+    position: relative
+}
+
+@media (max-width: 600px) {
+.logo {
+    padding-top: 2px;
+    width: 80%;
+    font-family: "Roboto Condensed";
+    font-size: 2.2rem;
+    padding-left: 0;
+    line-height: 1.2;
+}
+}
+
+@media (max-width: 1024px) {
+.logo {
+    float: left;
+    width: 45%;
+    font-family: "Roboto Condensed";
+    padding-left: 0.2rem;
+    font-size: 2.2rem;
+    line-height: 1.3;
+}
+}
+
+#schedule {
+    max-width: 1284px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 1em 0 1em;
+    z-index: 10;
+}
+
+@media (max-width: 1024px) {
+#schedule #ticker {
+    padding-top: 20px;
+}
+}
+
+@media (max-width: 1024px) {
+#schedule #ticker .flex-container {
+    width: 100%;
+}
+}
+
+.react-datepicker-wrapper {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+}
+
+.react-datepicker__input-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+#schedule #ticker .flex-cal {
+    flex: 0 0 auto;
+    border: solid 1px #00ba7cd9;
+    border-right: solid 0.5px #00ba7cd9;
+    width: 80px;
+    text-align: center;
+    line-height: 0.5;
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    height: 60px;
+    cursor: pointer;
+}
+
+    #schedule #ticker .flex-container {
+    display:    flex;
+    overflow-y: hidden;
+    flex-direction: row;
+    float:  left;
+}
+
+
+#schedule #ticker .flex {
+    display: flex;
+    justify-content: center;
+    align-tems: center;
+    flex: 0 0 auto;
+    border: solid 1px #49a;
+    border-right: solid 0.5px #49a;
+    min-width: 154px;
+    z-index: 50px;
+    line-height: 0.5;
+}
+
+input {
+    border-radius: 0;
+}
+
+.react-datepicker-popper[data-placement^="bottom"] {
+    margin-top: 10px;
+}
+
+.react-datepicker {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #aeaeae;
+    border-radius: 0.3rem;
+    display: inline-block;
+    position: relative;
+}
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle, .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before {
+    border-top: none;
+    border-bottom-color: #f0f0f0;
+}
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle, .react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle, .react-datepicker__year-read-view--down-arrow, .react-datepicker__month-read-view--down-arrow, .react-datepicker__month-year-read-view--down-arrow, .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before, .react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle::before, .react-datepicker__year-read-view--down-arrow::before, .react-datepicker__month-read-view--down-arrow::before, .react-datepicker__month-year-read-view--down-arrow::before {
+    box-sizing: content-box;
+    position: absolute;
+    border: 8px solid transparent;
+    height: 0;
+    width: 1px
+}
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle, .react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle, .react-datepicker__year-read-view--down-arrow, .react-datepicker__month-read-view--down-arrow, .react-datepicker__month-year-read-view--down-arrow {
+    margin-left: -8px;
+    position: absolute;
+}
+
+.react-datepicker__triangle {
+    position: absolute;
+    left: 50px #00ba7cd9;
+}
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before {
+    top: -1px;
+    border-bottom-color: #aeaeae;
+}
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle, .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before {
+    border-top: none;
+    border-bottom-color: #f0f0f0;
+}
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before, .react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle::before, .react-datepicker__year-read-view--down-arrow::before, .react-datepicker__month-read-view--down-arrow::before, .react-datepicker__month-year-read-view--down-arrow::before {
+    content: "";
+    z-index: -1;
+    border-width: 8px;
+    left: -8px;
+    border-bottom-color: #aeaeae;
+}
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle, .react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle, .react-datepicker__year-read-view--down-arrow, .react-datepicker__month-read-view--down-arrow, .react-datepicker__month-year-read-view--down-arrow, .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before, .react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle::before, .react-datepicker__year-read-view--down-arrow::before, .react-datepicker__month-read-view--down-arrow::before, .react-datepicker__month-year-read-view--down-arrow::before {
+    box-sizing: content-box;
+    position: absolute;
+    border: 8px solid transparent;
+    height: 0;
+    width: 1px;
+}
+
+*:before, *:after {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.react-datepicker__navigation--previous {
+    left: 10px;
+    border-right-color: #ccc;
+}
+
+.react-datepicker__navigation {
+    background: none;
+    line-height: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    width: 0;
+    padding: 0;
+    border: 0.45rem solid transparent;
+    z-index: 1;
+    height: 10px;
+    width: 10px;
+    text-indent: -999em;
+    overflow: hidden;
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button {
+    overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.react-datepicker__navigation--next {
+    right: 10px;
+    border-left-color: #ccc;
+}
+
+.react-datepicker__month-container {
+    float: left;
+}
+
+.react-datepicker__header {
+    text-align: center;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #aeaeae;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+    padding-top: 8px;
+    position: relative;
+}
+
+.react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+    margin-top: 0;
+    color: #000;
+    font-weight: bold;
+    font-size: 0.944rem;
+}
+
+.react-datepicker__day-names, .react-datepicker__week {
+    white-space: nowrap;
+}
+
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+    color: #000;
+    display: inline-block;
+    width: 1.7rem;
+    line-height: 1.7rem;
+    text-align: center;
+    margin: 0.166rem;
+}
+
+.react-datepicker__month {
+    margin: 0.4rem;
+    text-align: center;
+}
+
+.react-datepicker__day-names, .react-datepicker__week {
+    white-space: nowrap;
+}
+
+.react-datepicker__day, .react-datepicker__month-text, .react-datepicker__quarter-text {
+    cursor: pointer;
+}
+
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+    color: #000;
+    display: inline-block;
+    width: 1.7rem;
+    line-height: 1.7rem;
+    text-align: center;
+    margin: 0.166rem;
+}
+
+.react-datepicker__day-names, .react-datepicker__week {
+    white-space: nowrap;
+}
+
+.HeaderAC-MuiInputLabel-outlined {
+    z-index: 1;
+    transform: translate(14px, 20px) scale(1);
+    pointer-events: none;
+}
+
+.HeaderAC-MuiInputLabel-animated {
+    transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+}
+
+.HeaderAC-MuiInputLabel-formControl {
+    top: 0;
+    left: 0;
+    position: absolute;
+}

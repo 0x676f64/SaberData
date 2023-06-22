@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sabr Analytics and Data Mining</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
+    <meta http-equiv="X-UA=Compatible" content="IE=Edge">
+    <link rel="stylesheet" href="/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body id="homepage-new_home" class="lang-en_US">
+    <!--header-->
+        <header id="header->
+          <div class="header-top">
+            <div id="header-bar">
+                <!--<div>
+                    <img class="mlb-logo" height="60px" src="images/savant-logo.svg">
+                </div>-->
+                <div class="logo-text">
+                    <div class="logo">
+                        <a href="/"><span class="primary-color">SevenFourTeen</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrap">
+          <nav class="nav">
+            <div id="hamburger" class="temp">
+              <div class="ham1"></div>
+              <div class="ham1"></div>
+              <div class="ham2"></div>
+              <div class="ham3"></div>
+            </div>
+            <ul class="nav-menu" style="display: none;">
+            <li class="item">
+              <a href="#">Scoreboard</a>
+            </li>
+            <li class="item">
+              <a href="#">Statistics</a>
+            </li>
+            <li class="item">
+              <a href="#">Leaderboards</a>
+            </li>
+            <li class="item">
+              <a href="#">Search</a>
+            </li>
+            <li class="item">
+              <a href="#">Probable Pitchers</a>
+            </li>
+            <li class="item">
+              <a href="#">Visuals</a>
+            </li>
+            </ul>
+          </nav>
+        </div>
+            <!--Search Bar-->
+            <div id="player_search_container">
+              <div class="HeaderAC-MuiAutocomplete-root HeaderAC-MuiAutocomplete-hasClearIcon" role="combobox" aria-expanded="false">
+                <div class="HeaderAC-MuiFormControl-root HeaderAC-MuiTextField-root HeaderAC-MuiFormControl-fullWidth">
+                  <label class="HeaderAC-MuiFormLabel-root HeaderAC-MuiInputLabel-root material-header-root HeaderAC-MuiInputLabel-formControl HeaderAC-MuiInputLabel-animated HeaderAC-MuiInputLabel-outlined" data-shrink="false" for="player-auto-complete" id="player-auto-complete-label">Search Player Name or Team</label>
+                  <div class="HeaderAC-MuiInputBase-root HeaderAC-MuiOutlinedInput-root jss5 HeaderAC-MuiAutocomplete-inputRoot HeaderAC-MuiInputBase-fullWidth HeaderAC-MuiInputBase-formControl HeaderAC-MuiInputBase-adornedEnd HeaderAC-MuiOutlinedInput-adornedEnd">
+                    <input aria-invalid="false" autocomplete="new-password" id="player-auto-complete" type="text" class="HeaderAC-MuiInputBase-input HeaderAC-MuiOutlinedInput-input HeaderAC-MuiAutocomplete-input HeaderAC-MuiAutocomplete-inputFocused HeaderAC-MuiInputBase-inputAdornedEnd HeaderAC-MuiOutlinedInput-inputAdornedEnd" aria-autocomplete="both" autocapitalize="none" spellcheck="false" value="">
+                    <div class="HeaderAC-MuiAutocomplete-endAdornment">
+                      <button class="HeaderAC-MuiButtonBase-root HeaderAC-MuiIconButton-root HeaderAC-MuiAutocomplete-clearIndicator" tabindex="-1" type="button" aria-label="Clear" title="Clear">
+                        <span class="HeaderAC-MuiIconButton-label">
+                          <svg class="HeaderAC-MuiSvgIcon-root HeaderAC-MuiSvgIcon-fontSizeSmall" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+                          </svg>
+                        </span>
+                        <span class="HeaderAC-MuiTouchRipple-root"></span>
+                      </button>
+                    </div>
+                    <fieldset aria-hidden="true" class="HeaderAC-c1 HeaderAC-MuiOutlinedInput-notchedOutline jss7">
+                        <legend class="HeaderAC-c3">
+                            <span>Search Play Name or Team</span>
+                        </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </header>
+
+          <nav class="nav-global">
+            <ul class="nav-global-menu">
+              <li class="nav-global-menu-scoreboard">
+                <a href="https://127.0.0.1/scoreboard" name="saber-data-scoreboard">Scoreboard</a>
+              </li>
+              <li class="nav-global-menu-statistics">
+                <a href="https://127.0.0.1/statistics" name="saber-data-statistics">Statistics</a>
+              </li>
+              <li class="nav-global-menu-leaderboards">
+                <a href="https://127.0.0.1/leaderboards" name="saber-data-leaderboards">Leaderboards</a>
+              </li>
+              <li class="nav-global-menu-search">
+                <a href="https://127.0.0.1/search" name="saber-data-search">Search</a>
+              </li>
+              <li class="nav-global-menu-probable-pitchers">
+                <a href="https://127.0.0.1/probable-pitchers" name="saber-data-probable-pitchers">Probable Pitchers</a>
+              </li>
+              <li class="nav-global-menu-visuals">
+                <a href="https://127.0.0.1/visuals" name="saber-data-visuals">Visuals</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div id="schedule">
+            <div id="ticker">
+              <div class="flex-container">
+                <div>
+                  <div class="react-datepicker-wrapper">
+                  <div class="react-datepicker_input-container">
+                    <input type="text" class="flex-cal calendar" value="5/3" readonly>
+                  </div>
+                  </div>
+                </div>
+                  <div class="react-datapicker__tab-loop">
+                    <div class="react-datepicker__tab-loop__start" tabindex="0"></div>
+                    <div class="react-datepicker-popper" style="position: absolute; top: 0px; left: 0px; transform: translate3d(13px, 80px, 0px); will-change: transform;" data-placement="bottom-start">
+                    <div>
+                      <div class="react-datepicker">
+                        <div class="react-datepicker__triangle">
+                          ::before
+                        </div>
+                        <button type="button" class="react-datepicker__navigation react-datepicker__navigation--previous" aria-label="Previous Month">Previous Month</button>
+                        <button type="button" class="react-datepicker__navigation react-datepicker__navigation--next" aria-label="Next Month">Next Month</button>
+                      <div class="react-datepicker__month-container">
+                        <div class="react-datepicker__header">
+                          <div class="react-datepicker__current-month">May 2023</div>
+                          <div class="react-datepicker__header__dropdown react-datepicker__header__dropdown--scroll"></div>
+                        <div class="react-datepicker__day-names">
+                          <div class="react-datepicker__day-name">Su</div>
+                          <div class="react-datepicker__day-name">Mo</div>
+                          <div class="react-datepicker__day-name">Tu</div>
+                          <div class="react-datepicker__day-name">We</div>
+                          <div class="react-datepicker__day-name">Th</div>
+                          <div class="react-datepicker__day-name">Fr</div>
+                          <div class="react-datepicker__day-name">Sa</div>
+                        </div>
+                        </div>
+                        <div class="react-datepicker__month" aria-gametickerlabel="month  2023-05">
+                          <div class="react-datepicker__week">
+                            <div class="react-datepicker__day react-datepicker__day--30 react-datepicker__day--weekend react-datepicker__day--outside-month" tabindex="-1" aria-label="Choose Sunday, April 30th, 2023" role="button" aria-disabled="false">30</div>
+                            <div class="react-datepicker__day react-datepicker__day--001" tabindex="-1" aria-label="Choose Monday, May 1st, 2023" role="button" aria-disabled="false">1</div>
+                            <div class="react-datepicker__day react-datepicker__day--002" tabindex="-1" aria-label="Choose Tuesday, May 2nd, 2023" role="button" aria-disabled="false">2</div>
+                            <div class="react-datepicker__day reacgametickert-datepicker__day--003" tabindex="-1" aria-label="Choose Wednesday, May 3rd, 2023" role="button" aria-disabled="false">3</div>
+                            <div class="react-datepicker__day react-datepicker__day--004" tabindex="-1" aria-label="Choose Thursday, May 4th, 2023" role="button" aria-disabled="false">4</div>
+                            <div class="react-datepicker__day react-datepicker__day--005" tabindex="-1" aria-label="Choose Friday, May 5th, 2023" role="button" aria-disabled="false">5</div>
+                            <div class="react-datepicker__day react-datepicker__day--006" tabindex="-1" aria-label="Choose Saturday, May 6th, 2023" role="button" aria-disabled="false">6</div>
+                            <div class="react-datepicker__week">
+                                <div class="react-datepicker__day react-datepicker__day--007 react-daypicker__day--weekend" tabindex="-1" aria-label="Choose Sunday, May 7th, 2023" role="button" aria-disabled="false">7</div>
+                                <div class="react-datepicker__day react-datepicker__day--008" tabindex="-1" aria-label="Choose Monday, May 8th, 2023" role="button" aria-disabled="false">8</div>
+                                <div class="react-datepicker__day react-datepicker__day--009" tabindex="-1" aria-label="Choose Tuesday, May 9th, 2023" role="button" aria-disabled="false">9</div>
+                                <div class="react-datepicker__day react-datepicker__day--010" tabindex="-1" aria-label="Choose Wednesday, May 10th, 2023" role="button" aria-disabled="false">10</div>
+                                <div class="react-datepicker__day react-datepicker__day--011" tabindex="-1" aria-label="Choose Thursday, May 11th, 2023" role="button" aria-disabled="false">11</div>
+                                <div class="react-datepicker__day react-datepicker__day--012" tabindex="-1" aria-label="Choose Friday, May 12th, 2023" role="button" aria-disabled="false">12</div>
+                                <div class="react-datepicker__day react-datepicker__day--013 react-datepicker__day--weekend" tabindex="-1" aria-label="Choose Saturday, May 13th, 2023" role="button" aria-disabled="false">13</div>
+                           </div>
+                           <div class="react-datepicker__week">
+                           <div class="react-datepicker__day react-datepicker__day--014 react-datepicker__day--weekend" tabindex="-1" aria-label="Choose Sunday, May 14th, 2023" role="button" aria-disabled="false">14</div>
+                          <div class="react-datepicker__day react-datepicker__day--015" tabindex="-1" aria-label="Choose Monday, May 15th, 2023" role="button" aria-disabled="false">15</div>
+                          <div class="react-datepicker__day react-datepicker__day--016" tabindex="-1" aria-label="Choose Tuesday, May 16th, 2023" role="button" aria-disabled="false">16</div>
+                          <div class="react-datepicker__day react-datepicker__day--017" tabindex="-1" aria-label="Choose Wednesday, May 17th, 2023" role="button" aria-disabled="false">17</div>
+                          <div class="react-datepicker__day react-datepicker__day--018" tabindex="-1" aria-label="Choose Thursday, May 18th, 2023" role="button" aria-disabled="false">18</div>
+                          <div class="react-datepicker__day react-datepicker__day--019" tabindex="-1" aria-label="Choose Friday, May 19th, 2023" role="button" aria-disabled="false">19</div>
+                            <div class="react-datepicker__day react-datepicker__day--020 react-datepicker__day--weekend" tabindex="-1" aria-label="Choose Saturday, May 20th, 2023" role="button" aria-disabled="false">20</div>
+                          </div>
+                          <div class="react-datepicker__week">
+                            <div class="react-datepicker__day react-datepicker__day--021 react-datepicker__day--weekend" tabindex="-1" aria-label="Choose Sunday, May 21st, 2023" role="button" aria-disabled="false">21</div>
+                            <div class="react-datepicker__day react-datepicker__day--022" tabindex="-1" aria-label="Choose Monday, May 22nd, 2023" role="button" aria-disabled="false">22</div>
+                            <div class="react-datepicker__day react-datepicker__day--023" tabindex="-1" aria-label="Choose Tuesday, May 23rd, 2023" role="button" aria-disabled="false">23</div>
+                            <div class="react-datepicker__day react-datepicker__day--024" tabindex="-1" aria-label="Choose Wednesday, May 24th, 2023" role="button" aria-disabled="false">24</div>
+                            <div class="react-datepicker__day react-datepicker__day--025" tabindex="-1" aria-label="Choose Thursday, May 25th, 2023" role="button" aria-disabled="false">25</div>
+                            <div class="react-datepicker__day react-datepicker__day--026" tabindex="-1" aria-label="Choose Friday, May 26th, 2023" role="button" aria-disabled="false">26</div>
+                            <div class="react-datepicker__day react-datepicker__day--027 react-datepicker__day--weekend" tabindex="-1" aria-label="Choose Saturday, May 27th, 2023" role="button" aria-disabled="false">27</div>
+                          </div>
+                          <div class="react-datepicker__week">
+                            <div class="react-datepicker__day react-datepicker__day--028 react-datepicker__day--weekend" tabindex="-1" aria-label="Choose Sunday, May 28th, 2023" role="button" aria-disabled="false">28</div>
+                            <div class="react-datepicker__day react-datepicker__day--029" tabindex="-1" aria-label="Choose Monday, May 29th, 2023" role="button" aria-disabled="false">29</div>
+                            <div class="react-datepicker__day react-datepicker__day--030" tabindex="-1" aria-label="Choose Tuesday, May 30th, 2023" role="button" aria-disabled="false">30</div>
+                            <div class="react-datepicker__day react-datepicker__day--031" tabindex="-1" aria-label="Choose Wednesday, May 31st, 2023" role="button" aria-disabled="false">31</div>
+                            <div class="react-datepicker__day react-datepicker__day--001" tabindex="-1" aria-label="Choose Thursday, June 1st, 2023" role="button" aria-disabled="false">1</div>
+                            <div class="react-datepicker__day react-datepicker__day--002" tabindex="-1" aria-label="Choose Friday, June 2nd, 2023" role="button" aria-disabled="false">2</div>
+                            <div class="react-datepicker__day react-datepicker__day--003" tabindex="-1" aria-label="Choose Saturday, June 3rd, 2023" role="button" aria-disabled="false">3</div>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="react-datepicker__tab-loop__end" tabindex="0"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+        </header>
+
+  </body>
+
+  </html>
